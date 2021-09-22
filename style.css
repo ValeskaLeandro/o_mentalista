@@ -1,0 +1,93 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;    
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+
+  .conteudo {
+      width:  500px;
+      padding: 50px 0;
+      margin: 150px  auto;
+      background-color: rgb(91, 194, 253);
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px #ffffff;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  button {
+      width: 180px;
+      height: 50px;
+      font-family: "Roboto Mono", monospace;
+      font-size: 16px;      
+  }
+
+  button:hover {
+      background: rgb(1, 1, 60);
+      cursor: pointer;
+      color: #ffffff;
+      transition: .5s;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 155px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+
+  a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+  
+  .resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  
